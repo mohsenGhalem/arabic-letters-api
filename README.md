@@ -5,25 +5,6 @@ This project is a FastAPI application that performs Arabic letter recognition us
 
 The code for data training and processing can be found in the [arabic-handwritten-letters-recognition.ipynb](./arabic-handwritten-letters-recognition.ipynb) file.
 
-## Installation
-
-To run this application, you have two options: using Docker or Python virtual environment (venv).
-
-### Docker
-
-1. Install Docker on your machine.
-2. Build the Docker image using the provided Dockerfile:
-    ```bash
-    docker build -t arabic-letter-recognition .
-3. Run the Docker container:
-
-    ```bash
-    docker run -p 8000:8000 arabic-letters-api
-    ```
-# Arabic Letters API
-
-This is a FastAPI application that performs Arabic letter recognition using TensorFlow. It provides an API endpoint to recognize Arabic letters from input images.
-
 ## Prerequisites
 
 Before running the application, make sure you have the following installed:
@@ -44,6 +25,22 @@ Before running the application, make sure you have the following installed:
     ```shell
     cd arabic-letters-api
     ```
+## Installation
+
+To run this application, you have two options: using Docker or Python virtual environment (venv).
+
+### Docker
+
+1. Install Docker on your machine.
+2. Build the Docker image using the provided Dockerfile:
+    ```bash
+    docker build -t arabic-letter-recognition .
+3. Run the Docker container:
+
+    ```bash
+    docker run -p 8000:8000 arabic-letters-api
+    ```
+### Python venv
 
 3. Create a Python virtual environment:
 
